@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="go112 Нары ЗС ГО"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Go 112</title>
+    <!--Google fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <!--Roboto-->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <!--Montserrat-->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="./style.css"/>
+<body>
+    <!--Header-->
+    <header class="header">
+        <div class="header__navbarlow">
+            <svg xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 448 512"><!--! Font Awesome Pro 6.3.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
+                <path
+                    d="M0 96C0 78.3 14.3 64 32 64H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32C14.3 128 0 113.7 0 96zM0 256c0-17.7 14.3-32 32-32H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32c-17.7 0-32-14.3-32-32zM448 416c0 17.7-14.3 32-32 32H32c-17.7 0-32-14.3-32-32s14.3-32 32-32H416c17.7 0 32 14.3 32 32z" />
+            </svg>
+        </div>
+        <div class="header__inner">
+            <div class="header__blockup">
+                <div class="header__blockupper">
+                    <a class="header__phone" href="#">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Pro 6.3.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M347.1 24.6c7.7-18.6 28-28.5 47.4-23.2l88 24C499.9 30.2 512 46 512 64c0 247.4-200.6 448-448 448c-18 0-33.8-12.1-38.6-29.5l-24-88c-5.3-19.4 4.6-39.7 23.2-47.4l96-40c16.3-6.8 35.2-2.1 46.3 11.6L207.3 368c70.4-33.3 127.4-90.3 160.7-160.7L318.7 167c-13.7-11.2-18.4-30-11.6-46.3l40-96z"/></svg>
+                        <span class="header__phoneclass">+7 (925) 891-07-09</span>
+                    </a>
+                    <a class="header__email" href="#">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Pro 6.3.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M64 112c-8.8 0-16 7.2-16 16v22.1L220.5 291.7c20.7 17 50.4 17 71.1 0L464 150.1V128c0-8.8-7.2-16-16-16H64zM48 212.2V384c0 8.8 7.2 16 16 16H448c8.8 0 16-7.2 16-16V212.2L322 328.8c-38.4 31.5-93.7 31.5-132 0L48 212.2zM0 128C0 92.7 28.7 64 64 64H448c35.3 0 64 28.7 64 64V384c0 35.3-28.7 64-64 64H64c-35.3 0-64-28.7-64-64V128z"/></svg>
+                        <span class="header__emailclass">info@go112.ru</span>
+                    </a>
+                    <a class="header__time" href="#">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Pro 6.3.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M464 256A208 208 0 1 1 48 256a208 208 0 1 1 416 0zM0 256a256 256 0 1 0 512 0A256 256 0 1 0 0 256zM232 120V256c0 8 4 15.5 10.7 20l96 64c11 7.4 25.9 4.4 33.3-6.7s4.4-25.9-6.7-33.3L280 243.2V120c0-13.3-10.7-24-24-24s-24 10.7-24 24z"/></svg>
+                        <span class="header__timeclass">Пн - Пт: 9:00 - 17:00</span>
+                    </a>
+                </div>
+            </div>
+            <div class="header__blockdown">
+                <div class="header__blockdowner">
+                    <img class="header__img" src="svg/logo.svg" alt="logo"/>
+                    <h5 class="header__head">Имущество для защитных сооружений и гражданской обороны</h5>
+                    <nav class="header__nav"> 
+                        <ul class="header__ul">
+                            <li class="header__navlink"><a class="link__active" href="/">Главная</a></li>
+                            <li class="header__navlink"><a href="./catalog.html">Каталог</a></li>
+                            <li class="header__navlink"><a href="./contacts.html">Контакты</a></li>
+                            <li class="header__navlink"><a href="./aboutus.html">О нас</a></li>
+                            <li class="header__navlink"><a href="./conditions.html">Условия</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!--Page1-->
+    <section class="page1">
+        <div class="background__overlay"></div>
+        <div class="page1__inner">
+            <div class="page1__blockleft">
+                <iframe title="3d" src="https://www.vectary.com/viewer/v1/?model=8c165df9-3cf7-4a2b-a65f-b9e7f0658e03&amp;env=studio1&amp;turntable=2" frameborder="0" width="898" height="480"></iframe>
+            </div>
+            <div class="page1__blockright">
+                <h1 class="page1__head">
+                    <b>Нары</b> металичесике для защитных сооружений<br><b>гражданской обороны</b>
+                </h1>
+            </div>
+        </div>
+    </section>
+    <!--Page2-->
+    <section class="page2">
+        <div class="page2__inner">
+            <div class="page2__blockup">
+                <div class="page2__blocklogo">
+                    <div>
+                        <img src="svg/divider.svg" class="page2__border" alt="divider"/>
+                        <img src="svg/divider.svg" class="page2__border" alt="divider"/>
+                        <img src="svg/divider.svg" class="page2__border" alt="divider"/>
+                        <img src="svg/divider.svg" class="page2__border" alt="divider"/>
+                        <img src="svg/divider.svg" class="page2__border" alt="divider"/>
+                        <img src="svg/divider.svg" class="page2__border" alt="divider"/>
+                        <img src="svg/divider.svg" class="page2__border" alt="divider"/>
+                        <img src="svg/divider.svg" class="page2__border" alt="divider"/>
+                        <img src="svg/divider.svg" class="page2__border" alt="divider"/>
+                        <img src="svg/divider.svg" class="page2__border" alt="divider"/>
+                        <img src="svg/divider.svg" class="page2__border" alt="divider"/>
+                        <img src="svg/divider.svg" class="page2__border" alt="divider"/>
+                        <img src="svg/divider.svg" class="page2__border" alt="divider"/>
+                        <img src="svg/divider.svg" class="page2__border" alt="divider"/>
+                        <img src="svg/divider.svg" class="page2__border" alt="divider"/>
+                        <img src="svg/divider.svg" class="page2__border" alt="divider"/>
+                        <img src="svg/divider.svg" class="page2__border" alt="divider"/>
+                        <img src="svg/divider.svg" class="page2__border" alt="divider"/>
+                        <img src="svg/divider.svg" class="page2__border" alt="divider"/>
+                        <img src="svg/divider.svg" class="page2__border" alt="divider"/>
+                    </div>
+                    <img src="svg/logo.svg" class="page2__logo" alt="logo"/>
+                    <div>
+                        <img src="svg/divider.svg" class="page2__border" alt="divider"/>
+                        <img src="svg/divider.svg" class="page2__border" alt="divider"/>
+                        <img src="svg/divider.svg" class="page2__border" alt="divider"/>
+                        <img src="svg/divider.svg" class="page2__border" alt="divider"/>
+                        <img src="svg/divider.svg" class="page2__border" alt="divider"/>
+                        <img src="svg/divider.svg" class="page2__border" alt="divider"/>
+                        <img src="svg/divider.svg" class="page2__border" alt="divider"/>
+                        <img src="svg/divider.svg" class="page2__border" alt="divider"/>
+                        <img src="svg/divider.svg" class="page2__border" alt="divider"/>
+                        <img src="svg/divider.svg" class="page2__border" alt="divider"/>
+                        <img src="svg/divider.svg" class="page2__border" alt="divider"/>
+                        <img src="svg/divider.svg" class="page2__border" alt="divider"/>
+                        <img src="svg/divider.svg" class="page2__border" alt="divider"/>
+                        <img src="svg/divider.svg" class="page2__border" alt="divider"/>
+                        <img src="svg/divider.svg" class="page2__border" alt="divider"/>
+                        <img src="svg/divider.svg" class="page2__border" alt="divider"/>
+                        <img src="svg/divider.svg" class="page2__border" alt="divider"/>
+                        <img src="svg/divider.svg" class="page2__border" alt="divider"/>
+                        <img src="svg/divider.svg" class="page2__border" alt="divider"/>
+                        <img src="svg/divider.svg" class="page2__border" alt="divider"/>
+                    </div>
+                </div>
+            </div>
+            <div class="page2__blockdown">
+                <p class="page2__p">Наша компания является производителем и 
+                    представителем 
+                    заводов-изготовителей имущества для оснащения защитных 
+                    сооружений гражданской обороны. 
+                    Осуществляем комплексные поставки имущества для 
+                    предприятий и оборонных организаций. Являемся участниками ГОЗ, 
+                    работаем по 44-ФЗ, 223-ФЗ.</p>
+            </div>
+        </div>
+    </section>
+    <!--Page3-->
+    <section class="page3">
+        <div class="page3__inner">
+            <div class="page3__block">
+                <svg class="page3__blockimg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512"><!--! Font Awesome Pro 6.3.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M64 32C28.7 32 0 60.7 0 96V304v80 16c0 44.2 35.8 80 80 80c26.2 0 49.4-12.6 64-32c14.6 19.4 37.8 32 64 32c44.2 0 80-35.8 80-80c0-5.5-.6-10.8-1.6-16H416h33.6c-1 5.2-1.6 10.5-1.6 16c0 44.2 35.8 80 80 80s80-35.8 80-80c0-5.5-.6-10.8-1.6-16H608c17.7 0 32-14.3 32-32V288 272 261.7c0-9.2-3.2-18.2-9-25.3l-58.8-71.8c-10.6-13-26.5-20.5-43.3-20.5H480V96c0-35.3-28.7-64-64-64H64zM585 256H480V192h48.8c2.4 0 4.7 1.1 6.2 2.9L585 256zM528 368a32 32 0 1 1 0 64 32 32 0 1 1 0-64zM176 400a32 32 0 1 1 64 0 32 32 0 1 1 -64 0zM80 368a32 32 0 1 1 0 64 32 32 0 1 1 0-64z"/></svg>
+                <h5 class="page3__blockhead">Доставка</h5>
+                <p class="page3__blockp">Доставка осуществляется до 
+                    терминала транспортной компании или до адреса грузополучателя</p>
+                <a href="#" class="page3__blockbtn">Подробнее</a>
+            </div>
+            <div class="page3__block">
+                <svg class="page3__blockimg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512"><!--! Font Awesome Pro 6.3.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M14 2.2C22.5-1.7 32.5-.3 39.6 5.8L80 40.4 120.4 5.8c9-7.7 22.3-7.7 31.2 0L192 40.4 232.4 5.8c9-7.7 22.2-7.7 31.2 0L304 40.4 344.4 5.8c7.1-6.1 17.1-7.5 25.6-3.6s14 12.4 14 21.8V488c0 9.4-5.5 17.9-14 21.8s-18.5 2.5-25.6-3.6L304 471.6l-40.4 34.6c-9 7.7-22.2 7.7-31.2 0L192 471.6l-40.4 34.6c-9 7.7-22.3 7.7-31.2 0L80 471.6 39.6 506.2c-7.1 6.1-17.1 7.5-25.6 3.6S0 497.4 0 488V24C0 14.6 5.5 6.1 14 2.2zM96 144c-8.8 0-16 7.2-16 16s7.2 16 16 16H288c8.8 0 16-7.2 16-16s-7.2-16-16-16H96zM80 352c0 8.8 7.2 16 16 16H288c8.8 0 16-7.2 16-16s-7.2-16-16-16H96c-8.8 0-16 7.2-16 16zM96 240c-8.8 0-16 7.2-16 16s7.2 16 16 16H288c8.8 0 16-7.2 16-16s-7.2-16-16-16H96z"/></svg>
+                <h5 class="page3__blockhead">Документация</h5>
+                <p class="page3__blockp">Поможем с составлением технического задания 
+                    для исключения поставки контрафактной продукции</p>
+                <a href="#" class="page3__blockbtn">Нужна помощь</a>
+            </div>
+            <div class="page3__block">
+                <svg class="page3__blockimg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512"><!--! Font Awesome Pro 6.3.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M384 32H512c17.7 0 32 14.3 32 32s-14.3 32-32 32H398.4c-5.2 25.8-22.9 47.1-46.4 57.3V448H512c17.7 0 32 14.3 32 32s-14.3 32-32 32H320 128c-17.7 0-32-14.3-32-32s14.3-32 32-32H288V153.3c-23.5-10.3-41.2-31.6-46.4-57.3H128c-17.7 0-32-14.3-32-32s14.3-32 32-32H256c14.6-19.4 37.8-32 64-32s49.4 12.6 64 32zm55.6 288H584.4L512 195.8 439.6 320zM512 416c-62.9 0-115.2-34-126-78.9c-2.6-11 1-22.3 6.7-32.1l95.2-163.2c5-8.6 14.2-13.8 24.1-13.8s19.1 5.3 24.1 13.8l95.2 163.2c5.7 9.8 9.3 21.1 6.7 32.1C627.2 382 574.9 416 512 416zM126.8 195.8L54.4 320H199.3L126.8 195.8zM.9 337.1c-2.6-11 1-22.3 6.7-32.1l95.2-163.2c5-8.6 14.2-13.8 24.1-13.8s19.1 5.3 24.1 13.8l95.2 163.2c5.7 9.8 9.3 21.1 6.7 32.1C242 382 189.7 416 126.8 416S11.7 382 .9 337.1z"/></svg>
+                <h5 class="page3__blockhead">Цена</h5>
+                <p class="page3__blockp">Держим цены до последнего! Не смотря на постоянное 
+                    повышение цен удерживаем оптимальное соотношение цена/качество</p>
+                <a href="#" class="page3__blockbtn">Смотреть каталог</a>
+            </div>
+        </div>
+    </section>
+    <!--Page4-->
+    <section class="page4">
+        <div class="page4__inner">
+            <p class="page4__text">У нас вы можете купить нары металлические унифицированные 
+                сборно-разборные, 
+                складные (стеллажи) для защитных сооружений гражданской обороны.</p>
+            <p class="page4__text">Нары для защитных сооружений гражданской обороны, 
+                а также для укрытий и бомбоубежищ – это прочные конструкции, 
+                которые используются для размещения людей (укрываемых). 
+                В мирное время такие конструкции применяются в качестве стеллажей для 
+                раскладки инструментов и имущества. Также они могут быть задействованы 
+                в складских помещениях. 
+                Приобретать нары металлические лучше всего в специализированной компании.</p>
+            <p class="page4__text">Сертифицированные металлические нары прослужат 
+                длительное время и не потеряют первоначальный вид. 
+                Такие конструкции производятся из прочного металлопроката, сухой, 
+                пропитанной огнебиозащитным составом древесины. 
+                Что касается разновидностей, то они могут быть 
+                стационарными (сборно-разборными) или складными. 
+                Тонкий и прочный слой порошковой краски бережет нары от коррозии и ржавчины. 
+                Деревянная поверхность обрабатывается качественной 
+                огнебиозащитной пропиткой I группы, что позволяет исключить гниение, 
+                возникновение плесени, а также предотвращает горение деревянных элементов нар. 
+                Каждое изделие комплектуется крепежными элементами в виде прочных болтов, 
+                ведь чаще всего применяются резьбовые соединительные детали, 
+                хотя по требованию заказчика нары могут быть оснащены креплением типа «клин-петля».</p>
+            <p class="page4__text">По дополнительному заказу изготавливаются съемные деревянные подголовники, 
+                которые при необходимости можно убрать в сторону.</p>
+            <p class="page4__text">Если высота помещения составляет от 2,15 до 2,9 м, то отсеки убежища оборудуются двухъярусными нарами, 
+                а при высоте помещения свыше 2,9 м – трехъярусными.</p>
+            <p class="page4__text">Первый ярус нар вмещает до 4-х человек включительно. 
+                Используется как для сна, так и для сидения людей (укрываемых). 
+                Второй и третий ярусы используются 
+                исключительно для сна (лежания) одного человека (укрываемого).</p>
+        </div>
+    </section>
+    <!--Footer-->
+    <footer class="footer">
+        <div class="footer__inner">
+            <div class="footer__blockleft">
+                <svg class="footer__logo" version="1.1" id="Слой_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 99.934 99.934" style="enable-background:new 0 0 99.934 99.934;" xml:space="preserve">
+                    <style type="text/css">
+                        .st0{fill:#FFFFFF;}
+                    </style>
+                    <g>
+                        <g>
+                            <path class="st0" d="M87.211,70.471H12.723L49.967,5.963L87.211,70.471z M17.919,67.471h64.096L49.967,11.963L17.919,67.471z"></path>
+                        </g>
+                        <g>
+                            <path class="st0" d="M49.967,3c25.898,0,46.967,21.069,46.967,46.967S75.865,96.934,49.967,96.934S3,75.865,3,49.967
+                                S24.069,3,49.967,3 M49.967,0C22.371,0,0,22.371,0,49.967s22.371,49.967,49.967,49.967s49.967-22.371,49.967-49.967
+                                S77.563,0,49.967,0L49.967,0z"></path>
+                        </g>
+                        <g>
+                            <g>
+                                <path class="st0" d="M38.483,75.576h3.478v12.211h-2.308V77.759h-2.515L38.483,75.576z"></path>
+                            </g>
+                            <g>
+                                <path class="st0" d="M48.004,75.576h3.478v12.211h-2.308V77.759H46.66L48.004,75.576z"></path>
+                            </g>
+                            <g>
+                                <path class="st0" d="M57.691,79.511h-2.267c0.062-1.317,0.475-2.354,1.241-3.109c0.767-0.755,1.75-1.133,2.951-1.133
+                                    c0.741,0,1.396,0.156,1.963,0.469s1.021,0.764,1.361,1.354c0.34,0.589,0.511,1.188,0.511,1.797c0,0.725-0.207,1.505-0.619,2.341
+                                    s-1.167,1.823-2.263,2.964l-1.37,1.443h4.352v2.15h-8.459v-1.112l3.777-3.852c0.913-0.924,1.521-1.667,1.821-2.229
+                                    c0.302-0.562,0.453-1.069,0.453-1.523c0-0.471-0.156-0.859-0.47-1.166c-0.312-0.308-0.715-0.461-1.207-0.461
+                                    c-0.498,0-0.913,0.186-1.245,0.556C57.891,78.371,57.713,78.875,57.691,79.511z"></path>
+                            </g>
+                        </g>
+                        <g>
+                            <g>
+                                <path class="st0" d="M36.861,43.464h8.198v3.076h-5.076v13.443h-3.122V43.464z"></path>
+                            </g>
+                            <g>
+                                <path class="st0" d="M55.318,43.047c2.337,0,4.347,0.846,6.029,2.538c1.682,1.692,2.522,3.755,2.522,6.188
+                                    c0,2.41-0.829,4.45-2.489,6.12c-1.659,1.67-3.673,2.505-6.04,2.505c-2.479,0-4.54-0.857-6.181-2.572s-2.461-3.751-2.461-6.109
+                                    c0-1.58,0.382-3.032,1.146-4.357c0.765-1.325,1.815-2.375,3.152-3.15C52.335,43.435,53.774,43.047,55.318,43.047z M55.284,46.125
+                                    c-1.528,0-2.814,0.531-3.855,1.595c-1.042,1.063-1.562,2.414-1.562,4.055c0,1.826,0.656,3.271,1.967,4.334
+                                    c1.02,0.832,2.188,1.247,3.508,1.247c1.491,0,2.762-0.539,3.811-1.617c1.05-1.078,1.574-2.407,1.574-3.987
+                                    c0-1.572-0.528-2.902-1.585-3.992C58.084,46.67,56.799,46.125,55.284,46.125z"></path>
+                            </g>
+                        </g>
+                        <g>
+                            <polygon class="st0" points="49.967,23.396 48.397,26.578 44.886,27.088 47.427,29.564 46.827,33.061 49.967,31.41 53.107,33.061 
+                                52.508,29.564 55.048,27.088 51.537,26.578 49.967,23.396 		"></polygon>
+                        </g>
+                    </g>
+                </svg>
+                <h5 class="footer__head">Имущество для защитных сооружений и гражданской обороны</h5>
+                <p class="footer__p">2018 - 2023</p>
+            </div>
+            <div class="footer__blockright">
+                <nav class="footer__navbar">
+                    <ul>
+                        <li><a class="active" href="/">Главная</a></li>
+                        <li><a href="/catalog">Каталог</a></li>
+                        <li><a href="/contacts">Контакты</a></li>
+                        <li><a href="/aboutus">О нас</a></li>
+                        <li><a href="/conditions">Условия</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </footer>
+    <script src="main.js"></script>
+</body>
+</html>
